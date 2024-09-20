@@ -1,0 +1,114 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.wrapper{
+    height: 100vh;
+    width: 210vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,rgba(255,255,0,1) 0%,rgba(74,153,52,1) 14%, rgba(238,130,238,1) 100%);
+}
+.h1{
+    color: azure;
+}
+.header{
+    position: relative;
+    margin: 1rem;
+    padding-top: 0.5;
+  
+
+}
+.display{
+    position: relative;
+    color: chocolate;
+    font-size: 132%;
+    background-color: rgb(16, 6, 21);
+    padding: 0.6rem;
+    border-bottom: 0.35rem solid goldenrod;
+    border-radius: 0.5rem;
+
+ 
+}
+.display::placeholder{
+    color: brown;
+}
+.img{
+    position: absolute;
+    top: 37%;
+    right: -3.7rem;
+    transform: translateY(-50%);
+    transform: translateX(-290%);
+   
+}
+
+.span{
+    background-color: chartreuse;
+    opacity: 0;
+    margin-top: -20%;
+    margin-left: 98%;
+    font-size: large;
+   width: 60px;
+   padding: 0.4rem;
+   border-radius: 2rem;
+    transform-origin: bottom;
+    transition: all 8ms ease-in-out;
+
+}
+.span.active{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.containt{
+    padding: 3%;
+    background:rgb(8, 4, 18);
+   border-radius: 1rem;
+}
+.p{
+    color: antiquewhite;
+}
+.length{
+    display: flex;
+    justify-content: space-between;
+    font-size: 17px;
+}
+.slider{
+    background-color: blueviolet;
+    width: 230px;
+}
+.n{
+    color: chocolate;
+    font-size: 143%;
+}
+.checkBox{
+    color: antiquewhite;
+    font-size: 20px;
+}
+
+.strength{
+    color: antiquewhite;
+     display: flex;
+     justify-content: space-between;
+     font-size: 18px;
+    margin-top: 3%;
+}
+.circle{
+    height: 1rem;
+    width: 1rem;
+    background-color: aliceblue;
+    border-radius: 100%;
+   
+}
+.generateBtn{
+    color: burlywood;
+    background-color: blueviolet;
+    font-size: larger;
+   padding: 0.5rem;
+   border-bottom: 0.35rem solid goldenrod;
+   border-radius: 0.5rem;
+   margin-top: 8%;
+}
