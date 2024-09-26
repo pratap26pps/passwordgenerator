@@ -3,9 +3,19 @@
     padding: 0%;
     box-sizing: border-box;
 }
+@media (max-width:440px) {
+    .containt{
+      scale: 0.9;
+    }
+   .h1{
+       scale: 0.9;
+    
+   }
+}
 .wrapper{
+    position: relative;
     height: 100vh;
-    width: 210vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,6 +24,8 @@
 }
 .h1{
     color: azure;
+
+
 }
 .header{
     position: relative;
@@ -25,13 +37,11 @@
 .display{
     position: relative;
     color: chocolate;
-    font-size: 132%;
+    font-size: 22px;
     background-color: rgb(16, 6, 21);
     padding: 0.6rem;
     border-bottom: 0.35rem solid goldenrod;
     border-radius: 0.5rem;
-
- 
 }
 .display::placeholder{
     color: brown;
@@ -42,7 +52,7 @@
     right: -3.7rem;
     transform: translateY(-50%);
     transform: translateX(-290%);
-   
+   cursor: pointer;
 }
 
 .span{
@@ -67,6 +77,8 @@
     padding: 3%;
     background:rgb(8, 4, 18);
    border-radius: 1rem;
+   width:334px;
+  
 }
 .p{
     color: antiquewhite;
@@ -74,11 +86,13 @@
 .length{
     display: flex;
     justify-content: space-between;
-    font-size: 17px;
+    font-size: 24px;
 }
 .slider{
-    background-color: blueviolet;
-    width: 230px;
+
+    width: 98%;
+    border-radius: 1rem;
+    cursor: pointer;
 }
 .n{
     color: chocolate;
@@ -93,15 +107,15 @@
     color: antiquewhite;
      display: flex;
      justify-content: space-between;
-     font-size: 18px;
+     font-size: 22px;
     margin-top: 3%;
 }
-.circle{
+.indicator{
     height: 1rem;
     width: 1rem;
     background-color: aliceblue;
     border-radius: 100%;
-   
+  
 }
 .generateBtn{
     color: burlywood;
@@ -111,4 +125,5 @@
    border-bottom: 0.35rem solid goldenrod;
    border-radius: 0.5rem;
    margin-top: 8%;
+   cursor: pointer;
 }
